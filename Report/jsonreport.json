@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To validate Login Page",
+        "description": "",
+        "id": "to-validate-the-icic-bank-login-page;to-validate-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2814967800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and maximize the window",
+            "match": {
+              "location": "IcicPage.to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2723442400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the url of the ICIC bank",
+            "match": {
+              "location": "IcicPage.to_launch_the_url_of_the_ICIC_bank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To check the page is working",
+            "match": {
+              "location": "IcicPage.to_check_the_page_is_working()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243993200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To close the browser",
+            "match": {
+              "location": "IcicPage.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the ICIC bank Login page",
+    "description": "",
+    "id": "to-validate-the-icic-bank-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Sample.feature",
+    "tags": []
+  }
+]
